@@ -8,7 +8,7 @@ public class Ninja extends Hero {
 
     @Override
     public int atacar() {
-        System.out.println(this.getNome() + "(" + this.getTipo() + ", " +
+        System.out.println(this.getNome() + " (" + this.getTipo() + ", " +
                 this.getIdade() + " anos) atacou usando shuriken!");
 
         return this.getDano();
